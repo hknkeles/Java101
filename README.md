@@ -196,3 +196,77 @@ public class UcgenAlaniHesaplama {
 ```
 </details>
 <hr>
+
+
+### 📖 PRATİK 4 - Taksimetre Programı
+<hr>
+
+#### ❓SORU
+
+Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran programı yazın.
+
+📌Taksimetre KM başına 2.20 TL tutmaktadır.
+
+📌Minimum ödenecek tutar 20 TL'dir.
+
+📌20 TL altında ki ücretlerde yine 20 TL alınacaktır.
+
+📌Taksimetre açılış ücreti 10 TL'dir
+
+🟩 **CEVAP**
+<details>
+  <summary>Kodu görmek için tıklayınız.</summary>
+
+```JAVA
+package TaksimetreProgrami;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        /*Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran programı yazın.
+
+        Taksimetre KM başına 2.20 TL tutmaktadır.
+        Minimum ödenecek tutar 20 TL'dir. 20 TL altında ki ücretlerde yine 20 TL alınacaktır.
+        Taksimetre açılış ücreti 10 TL'dir
+        */
+        Scanner scanner = new Scanner(System.in);
+
+        double gidilenMesafe, acilisUcreti=10, tutar;
+        float km = 2.20f;
+
+        System.out.println("Gidilen mesafe bilgisini km olarak giriniz.");
+        gidilenMesafe = scanner.nextDouble();
+        scanner.close();
+
+        tutar = acilisUcreti + (gidilenMesafe * km);
+
+        System.out.printf("Ödenecek tutar : %.2f", (tutar<=20) ? 20 : tutar);
+
+
+    }
+}
+```
+</details>
+<hr>
+
+
+### 📖 PRATİK # - baslık
+<hr>
+
+#### ❓SORU
+
+Soru
+
+---
+❗soru kritik noktası
+
+🟩 **CEVAP**
+<details>
+  <summary>Kodu görmek için tıklayınız.</summary>
+
+```JAVA
+kodları yaz
+```
+</details>
+<hr>
