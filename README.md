@@ -1,6 +1,6 @@
 
 
-### 📖 <span style="color: blue; font-weight: bold;">PRATİK 1 - Not Ortalaması</span>
+### 📖 PRATİK 1 - Not Ortalaması
 <hr>
 
 #### ❓SORU 
@@ -8,7 +8,7 @@ Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik derslerinin sınav pua
 
 ❗Aynı program içerisinde koşullu ifadeler kullanılarak, eğer kullanıcının ortalaması 60'dan büyük ise ekrana "Sınıfı Geçti" , küçük ise "Sınıfta Kaldı" yazsın.
 
-🟩 <span style="color: red; font-weight: bold;">CEVAP</span>
+🟩 **CEVAP**
 <details>
   <summary>Kodu görmek için tıklayınız.</summary>
 
@@ -54,7 +54,7 @@ public class Main {
 </details>
 <hr>
 
-### 📖  <span style="color: blue; font-weight: bold;">PRATİK 2 - KDV Hesaplama Uygulaması</span>
+### 📖 PRATİK 2 - KDV Hesaplama Uygulaması
 <hr>
 
 #### ❓SORU
@@ -71,7 +71,7 @@ Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve KDV tutarı
 ---
 ❗Eğer girilen tutar 0 ve 1000 TL arasında ise KDV oranı %18 , tutar 1000 TL'den büyük ise KDV oranını %8 olarak KDV tutarı hesaplayan programı yazınız.
 
-🟩 <span style="color: red; font-weight: bold;">CEVAP</span>
+🟩 **CEVAP**
 <details>
   <summary>Kodu görmek için tıklayınız.</summary>
 
@@ -103,7 +103,7 @@ public class Main {
 <hr>
 
 
-### 📖  <span style="color: blue; font-weight: bold;">PRATİK 3 - Dik Üçgende Hipotenüsü ve Üçgende Alanı Hesaplama</span>
+### 📖  PRATİK 3 - Dik Üçgende Hipotenüsü ve Üçgende Alanı Hesaplama
 <hr>
 
 #### ❓SORU
@@ -124,7 +124,7 @@ $$
 \sqrt{u×(u−a)×(u−b)×(u−c)}
 $$
 
-🟩 <span style="color: red; font-weight: bold;">CEVAP</span>
+🟩 **CEVAP**
 
 <details>
   <summary>Kodu görmek için tıklayınız. (Hipotenüs Hesaplama)</summary>
