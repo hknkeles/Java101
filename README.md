@@ -674,6 +674,8 @@ import java.util.Scanner;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
 
         /*Dersler : Matematik, Fizik, Türkçe, Kimya, Müzik
@@ -686,7 +688,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Notlar için değişkenler oluşturalım
-        float matNot, fizikNot, tukceNot, kimyaNot, muzikNot, ortalama, gecmeNotu=55.00f;
+        float matNot, fizikNot, tukceNot, kimyaNot, muzikNot, ortalama = 0, gecmeNotu=55.00f;
 
 
 
@@ -714,6 +716,13 @@ public class Main {
             System.out.println("Geçerli ders girişi yapılmadığından ortalama hesaplanamıyor.");
         }
 
+        // Sınıfı geçip geçmediğini kontrol edelim
+        if (ortalama >= gecmeNotu){
+            System.out.println("Tebrikler sınıfı geçtiniz."+ "Ortalamanız : " + ortalama);
+        }else {
+            System.out.println("Malesef not ortalamanız geçme notunun altında. Kaldınız." + "Ortalamanız : " + ortalama);
+        }
+
         scanner.close();
 
 
@@ -723,6 +732,20 @@ public class Main {
     static int gecerliDersSayisi = 0;
 
     // Notların 0 veya 100 arasında olup olmadığının kontrolü
+    public static float notKontrol(float not){
+
+        if (not<=100 && not>=0){
+            gecerliDersSayisi++;
+            return not;
+        } else {
+            System.out.println("Ders notunuzu hatalı girmeniz nedeni ile ortalamaya dahil edilmeyecektir.");
+            return 0;
+        }
+
+    }
+
+}
+   // Notların 0 veya 100 arasında olup olmadığının kontrolü
     public static float notKontrol(float not){
 
         if (not<=100 && not>=0){
