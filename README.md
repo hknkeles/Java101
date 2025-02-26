@@ -590,7 +590,7 @@ public class Main {
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package KullaniciSifreKontrolUygulamasi;
+package P9_KullaniciSifreKontrolUygulamasi;
 
 import java.util.Scanner;
 
@@ -602,14 +602,14 @@ public class Main {
         // Varsayılan Kullanıcı adı ve şifresi
         String kullaniciAdi = "Hakan", kullaniciSifre = "Hakan.123", kontrol;
 
-        while (true){
+        while (true) {
             System.out.println("Lütfen Kullanıcı Adınızı giriniz.");
             String input = scanner.next().trim();
 
             System.out.println("Lütfen şifrenizi giriniz.");
             String sifre = scanner.next().trim();
 
-            if (input.equals(kullaniciAdi) && sifre.equals(kullaniciSifre)){
+            if (input.equals(kullaniciAdi) && sifre.equals(kullaniciSifre)) {
                 System.out.println("Sayın, " + input + " Hoşgeldiniz...");
                 break; // Giriş başarılı döngüyü sonlandır
             } else {
@@ -617,12 +617,12 @@ public class Main {
                 System.out.println("Şifrenizi sıfırlamak istiyor musunuz? Evet(e) - Hayır(h)");
                 kontrol = scanner.next().trim();
 
-                switch (kontrol){
-                    case "e","evet" -> {
+                switch (kontrol) {
+                    case "e", "evet" -> {
                         System.out.print("Yeni şifrenizi giriniz: ");
                         String yeniSifre = scanner.next();
 
-                        if (yeniSifre.equals(kullaniciSifre)){
+                        if (yeniSifre.equals(kullaniciSifre)) {
                             System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.\n");
                             continue;
                         } else {

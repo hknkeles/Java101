@@ -1,4 +1,4 @@
-package KullaniciSifreKontrolUygulamasi;
+package P9_KullaniciSifreKontrolUygulamasi;
 
 import java.util.Scanner;
 
