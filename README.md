@@ -1642,7 +1642,7 @@ C(n,r) = n! / (r! * (n-r)!)
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package J3_Donguler.P21_FaktoriyelHesaplayanProgram;
+package J3_Donguler.P21_KombinasyonHesaplayanProgram;
 
 import java.util.Scanner;
 
@@ -1681,7 +1681,7 @@ public class Main {
         r = scanner.nextInt();
         scanner.close();
 
-        int sonuc = faktoriyel(n) / (faktoriyel(r) * faktoriyel(n-r));
+        int sonuc = faktoriyel(n) / (faktoriyel(r) * faktoriyel(n - r));
 
         System.out.println(sonuc);
 

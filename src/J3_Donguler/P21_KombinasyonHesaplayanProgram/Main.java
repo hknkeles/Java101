@@ -1,4 +1,4 @@
-package J3_Donguler.P21_FaktoriyelHesaplayanProgram;
+package J3_Donguler.P21_KombinasyonHesaplayanProgram;
 
 import java.util.Scanner;
 
