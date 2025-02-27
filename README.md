@@ -130,7 +130,7 @@ $$
   <summary>Kodu görmek için tıklayınız. (Hipotenüs Hesaplama)</summary>
 
 ```JAVA
-package DikUcgendeHipotenusveAlan;
+package P3_DikUcgendeHipotenusveAlan;
 
 import java.util.Scanner;
 
@@ -160,7 +160,7 @@ public class HipotenusHesaplama {
   <summary>Kodu görmek için tıklayınız. (Alan Hesaplama)</summary>
 
 ```JAVA
-package DikUcgendeHipotenusveAlan;
+package P3_DikUcgendeHipotenusveAlan;
 
 import java.util.Scanner;
 
@@ -181,11 +181,11 @@ public class UcgenAlaniHesaplama {
         kenar3 = scanner.nextInt();
 
         // Üçgenin çevresini bulalım
-        cevre = (kenar1 + kenar2 + kenar3)/2;
+        cevre = (kenar1 + kenar2 + kenar3) / 2;
 
         // Üçgenin alanını bulalım
 
-        alan = Math.sqrt(cevre* (cevre - kenar1) * (cevre - kenar2) * (cevre - kenar3));
+        alan = Math.sqrt(cevre * (cevre - kenar1) * (cevre - kenar2) * (cevre - kenar3));
 
         System.out.printf("üçgenin Alanı: %.2f", alan);
 

@@ -1,4 +1,4 @@
-package DikUcgendeHipotenusveAlan;
+package P3_DikUcgendeHipotenusveAlan;
 
 import java.util.Scanner;
 
