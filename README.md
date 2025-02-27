@@ -13,7 +13,7 @@ Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik derslerinin sınav pua
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P1_NotOrtalamasi;
+package J1_TemelKavramlar_Degiskenler.P1_NotOrtalamasi;
 
 import java.util.Scanner;
 
@@ -76,7 +76,7 @@ Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve KDV tutarı
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P2_KDVTutariUygulamasi;
+package J1_TemelKavramlar_Degiskenler.P2_KDVTutariUygulamasi;
 
 import java.util.Scanner;
 
@@ -130,7 +130,7 @@ $$
   <summary>Kodu görmek için tıklayınız. (Hipotenüs Hesaplama)</summary>
 
 ```JAVA
-package P3_DikUcgendeHipotenusveAlan;
+package J1_TemelKavramlar_Degiskenler.P3_DikUcgendeHipotenusveAlan;
 
 import java.util.Scanner;
 
@@ -160,7 +160,7 @@ public class HipotenusHesaplama {
   <summary>Kodu görmek için tıklayınız. (Alan Hesaplama)</summary>
 
 ```JAVA
-package P3_DikUcgendeHipotenusveAlan;
+package J1_TemelKavramlar_Degiskenler.P3_DikUcgendeHipotenusveAlan;
 
 import java.util.Scanner;
 
@@ -218,7 +218,7 @@ Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran prog
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P4_TaksimetreProgrami;
+package J1_TemelKavramlar_Degiskenler.P4_TaksimetreProgrami;
 
 import java.util.Scanner;
 
@@ -274,7 +274,7 @@ Java ile yarı çapını kullanıcıdan aldığınız dairenin alanını ve çev
   <summary>Kodu görmek için tıklayınız. (Alan ve Çevre Hesaplama)</summary>
 
 ```JAVA
-package P5_DaireninAlaniveCevresi;
+package J1_TemelKavramlar_Degiskenler.P5_DaireninAlaniveCevresi;
 
 import java.util.Scanner;
 
@@ -311,7 +311,7 @@ public class AlanveCevre {
   <summary>Kodu görmek için tıklayınız. (Daire Diliminin Alanını Hesaplama)</summary>
 
 ```JAVA
-package P5_DaireninAlaniveCevresi;
+package J1_TemelKavramlar_Degiskenler.P5_DaireninAlaniveCevresi;
 
 import java.util.Scanner;
 
@@ -362,7 +362,7 @@ Kilo (kg) / Boy(m) * Boy(m)
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P6_VucutKitleIndeksi;
+package J1_TemelKavramlar_Degiskenler.P6_VucutKitleIndeksi;
 
 import java.util.Scanner;
 
@@ -379,7 +379,7 @@ public class Main {
         boy = scanner.nextFloat();
 
         //Hatalı boy bilgisi girilmesi halinde
-        if (boy <= 0){
+        if (boy <= 0) {
             System.out.println("Boy ölçünüzü hatalı girmeniz nedeni ile program sonlandırılıyor.");
             scanner.close();
             return;
@@ -389,7 +389,7 @@ public class Main {
         kilo = scanner.nextFloat();
 
         //Hatalı kilo bilgisi girilmesi halinde
-        if (boy <= 0){
+        if (boy <= 0) {
             System.out.println("Kilo bilginizi hatalı girmeniz nedeni ile program sonlandırılıyor.");
             scanner.close();
             return;
@@ -406,8 +406,6 @@ public class Main {
 
         //Scanner sınıfını kapatalım
         scanner.close();
-
-
 
 
     }
@@ -452,7 +450,7 @@ Toplam Tutar : 21.68 TL
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P7_ManavKasaProgrami;
+package J1_TemelKavramlar_Degiskenler.P7_ManavKasaProgrami;
 
 import java.util.Scanner;
 
@@ -468,7 +466,7 @@ public class Main {
         float armutMiktar, elmaMiktar, domatesMiktar, muzMiktar, patlicanMiktar;
 
         System.out.println("MANAVA HOŞGELDİNİZ");
-        System.out.printf("Armut KG FİYATI: %.2f\n",armut);
+        System.out.printf("Armut KG FİYATI: %.2f\n", armut);
         System.out.printf("Elma KG FİYATI: %.2f\n", elma);
         System.out.printf("Domates KG FİYATI: %.2f\n", domates);
         System.out.printf("Muz KG FİYATI: %.2f\n", muz);
@@ -489,10 +487,10 @@ public class Main {
         muzMiktar = scanner.nextFloat();
 
         System.out.print("Patlıcan'dan kaç kilo almak istersiniz:");
-        patlicanMiktar =  scanner.nextFloat();
+        patlicanMiktar = scanner.nextFloat();
 
         //Toplam tutarı hesaplayalım
-        toplamTutar = armut * armutMiktar + elma * elmaMiktar + domates * domatesMiktar + muz * muzMiktar + patlican  *patlicanMiktar;
+        toplamTutar = armut * armutMiktar + elma * elmaMiktar + domates * domatesMiktar + muz * muzMiktar + patlican * patlicanMiktar;
 
         System.out.printf("Ödemeniz gereken toplam tutar: %.2f", toplamTutar);
     }
@@ -516,7 +514,7 @@ Switch Case yapısı kullanarak dört işlem yapan hesap makinesi uygulaması ya
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P8_HesapMakinesi;
+package J2_KosulluIfadeler_KodBloklari.P8_HesapMakinesi;
 
 import java.util.Scanner;
 
@@ -536,7 +534,7 @@ public class Main {
         System.out.println("Yapmak istediğiniz işlem tuşuna basınız. ( +, - , * , /");
         String islem = scanner.next();
 
-        switch (islem){
+        switch (islem) {
             case "+":
                 int toplam = sayi1 + sayi2;
                 System.out.println("İşlem Sonucunuz: " + toplam);
@@ -550,7 +548,7 @@ public class Main {
                 System.out.println("İşlem Sonucunuz: " + carpim);
                 break;
             case "/":
-                if (sayi2==0){
+                if (sayi2 == 0) {
                     System.out.println("Sıfıra bölme işlemi yapılamaz.");
                 } else {
                     float bolum = (float) sayi1 / (float) sayi2;
@@ -590,7 +588,7 @@ public class Main {
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P9_KullaniciSifreKontrolUygulamasi;
+package J2_KosulluIfadeler_KodBloklari.P9_KullaniciSifreKontrolUygulamasi;
 
 import java.util.Scanner;
 
@@ -668,12 +666,11 @@ Geçme Notu : 55
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P10_SinifGecmeDurumuHesaplama;
+package J2_KosulluIfadeler_KodBloklari.P10_SinifGecmeDurumuHesaplama;
 
 import java.util.Scanner;
 
 public class Main {
-
 
 
     public static void main(String[] args) {
@@ -688,8 +685,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Notlar için değişkenler oluşturalım
-        float matNot, fizikNot, tukceNot, kimyaNot, muzikNot, ortalama = 0, gecmeNotu=55.00f;
-
+        float matNot, fizikNot, tukceNot, kimyaNot, muzikNot, ortalama = 0, gecmeNotu = 55.00f;
 
 
         //Kullanıcıdan ders notlarını isteyelim
@@ -709,7 +705,7 @@ public class Main {
         muzikNot = notKontrol(scanner.nextFloat());
 
         // Eğer geçerli ders varsa ortalamayı hesaplayalım.
-        if (gecerliDersSayisi>0){
+        if (gecerliDersSayisi > 0) {
             ortalama = (matNot + fizikNot + tukceNot + kimyaNot + muzikNot) / gecerliDersSayisi;
             System.out.println("Ortalama : " + ortalama);
         } else {
@@ -717,24 +713,24 @@ public class Main {
         }
 
         // Sınıfı geçip geçmediğini kontrol edelim
-        if (ortalama >= gecmeNotu){
-            System.out.println("Tebrikler sınıfı geçtiniz."+ "Ortalamanız : " + ortalama);
-        }else {
+        if (ortalama >= gecmeNotu) {
+            System.out.println("Tebrikler sınıfı geçtiniz." + "Ortalamanız : " + ortalama);
+        } else {
             System.out.println("Malesef not ortalamanız geçme notunun altında. Kaldınız." + "Ortalamanız : " + ortalama);
         }
 
         scanner.close();
 
 
-
     }
+
     //Not ortalaması için geçerli ders sayısına ait değişken
     static int gecerliDersSayisi = 0;
 
     // Notların 0 veya 100 arasında olup olmadığının kontrolü
-    public static float notKontrol(float not){
+    public static float notKontrol(float not) {
 
-        if (not<=100 && not>=0){
+        if (not <= 100 && not >= 0) {
             gecerliDersSayisi++;
             return not;
         } else {
@@ -745,18 +741,19 @@ public class Main {
     }
 
 }
-   // Notların 0 veya 100 arasında olup olmadığının kontrolü
-    public static float notKontrol(float not){
 
-        if (not<=100 && not>=0){
-            gecerliDersSayisi++;
-            return not;
-        } else {
-            System.out.println("Ders notunuzu hatalı girmeniz nedeni ile ortalamaya dahil edilmeyecektir.");
-            return 0;
-        }
+// Notların 0 veya 100 arasında olup olmadığının kontrolü
+public static float notKontrol(float not) {
 
+    if (not <= 100 && not >= 0) {
+        gecerliDersSayisi++;
+        return not;
+    } else {
+        System.out.println("Ders notunuzu hatalı girmeniz nedeni ile ortalamaya dahil edilmeyecektir.");
+        return 0;
     }
+
+}
 
 }
 
@@ -788,7 +785,7 @@ public class Main {
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P11_HavaSicakliginaGoreEtkinlikOnerme;
+package J2_KosulluIfadeler_KodBloklari.P11_HavaSicakliginaGoreEtkinlikOnerme;
 
 import java.util.Scanner;
 
@@ -820,13 +817,13 @@ public class Main {
 
         // Aldığımız sıcaklık değerine göre etkinlikleri planlayalım
 
-        if (sicaklik<=5){
+        if (sicaklik <= 5) {
             System.out.println("Sıcaklık değeri " + sicaklik + ". Bu koşulda Kayak yapmanızı öneririm.");
-        } else if (sicaklik>5 && sicaklik<=15){
+        } else if (sicaklik > 5 && sicaklik <= 15) {
             System.out.println("Sıcaklık değeri " + sicaklik + ". Bu koşulda Sinemaya gitmenizi öneririm.");
-        } else if (sicaklik>15 && sicaklik<=25) {
+        } else if (sicaklik > 15 && sicaklik <= 25) {
             System.out.println("Sıcaklık değeri " + sicaklik + ". Bu koşulda Piknik yapmanızı öneririm.");
-        } else if (sicaklik>25) {
+        } else if (sicaklik > 25) {
             System.out.println("Sıcaklık değeri " + sicaklik + ". Bu koşulda Yüzmeye gitmenizi öneririm.");
         }
 
@@ -869,7 +866,7 @@ Girilen 3 sayıyı "küçükten büyüğe" sıralayan programı yazınız.
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P12_GirilenUcSayiyiSiralama;
+package J2_KosulluIfadeler_KodBloklari.P12_GirilenUcSayiyiSiralama;
 
 import java.util.Scanner;
 
@@ -958,7 +955,7 @@ Balık Burcu : 20 Şubat - 20 Mart
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P13_BurcBulanProgram;
+package J2_KosulluIfadeler_KodBloklari.P13_BurcBulanProgram;
 
 import java.util.Scanner;
 
@@ -990,101 +987,113 @@ public class Main {
         System.out.print("Doğduğunuz gün: ");
         gun = scanner.nextInt();
 
-        switch (ay){
-            case 1: if (ay>0 && ay<22){
-                System.out.println("Oğlak burcusunuz.");
-            } else if(ay>21 && ay<31) {
-                System.out.println("Kova burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+        switch (ay) {
+            case 1:
+                if (ay > 0 && ay < 22) {
+                    System.out.println("Oğlak burcusunuz.");
+                } else if (ay > 21 && ay < 31) {
+                    System.out.println("Kova burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 2: if (ay>0 && ay<20){
-                System.out.println("Kova burcusunuz.");
-            } else if(ay>19 && ay<31) {
-                System.out.println("Balık burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 2:
+                if (ay > 0 && ay < 20) {
+                    System.out.println("Kova burcusunuz.");
+                } else if (ay > 19 && ay < 31) {
+                    System.out.println("Balık burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 3: if (ay>0 && ay<21){
-                System.out.println("Balık burcusunuz.");
-            } else if(ay>20 && ay<31) {
-                System.out.println("Koç burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 3:
+                if (ay > 0 && ay < 21) {
+                    System.out.println("Balık burcusunuz.");
+                } else if (ay > 20 && ay < 31) {
+                    System.out.println("Koç burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 4: if (ay>0 && ay<21){
-                System.out.println("Koç burcusunuz.");
-            } else if(ay>20 && ay<31) {
-                System.out.println("Boğa burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
-            case 5: if (ay>0 && ay<22){
-                System.out.println("Boğa burcusunuz.");
-            } else if(ay>21 && ay<31) {
-                System.out.println("İkizler burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 4:
+                if (ay > 0 && ay < 21) {
+                    System.out.println("Koç burcusunuz.");
+                } else if (ay > 20 && ay < 31) {
+                    System.out.println("Boğa burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
+            case 5:
+                if (ay > 0 && ay < 22) {
+                    System.out.println("Boğa burcusunuz.");
+                } else if (ay > 21 && ay < 31) {
+                    System.out.println("İkizler burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 6: if (ay>0 && ay<23){
-                System.out.println("İkizler burcusunuz.");
-            } else if(ay>22 && ay<31) {
-                System.out.println("Yengeç burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 6:
+                if (ay > 0 && ay < 23) {
+                    System.out.println("İkizler burcusunuz.");
+                } else if (ay > 22 && ay < 31) {
+                    System.out.println("Yengeç burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 7: if (ay>0 && ay<23){
-                System.out.println("Yengeç burcusunuz.");
-            } else if(ay>22 && ay<31) {
-                System.out.println("Aslan burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 7:
+                if (ay > 0 && ay < 23) {
+                    System.out.println("Yengeç burcusunuz.");
+                } else if (ay > 22 && ay < 31) {
+                    System.out.println("Aslan burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 8: if (ay>0 && ay<23){
-                System.out.println("Aslan burcusunuz.");
-            } else if(ay>20 && ay<31) {
-                System.out.println("Başak burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 8:
+                if (ay > 0 && ay < 23) {
+                    System.out.println("Aslan burcusunuz.");
+                } else if (ay > 20 && ay < 31) {
+                    System.out.println("Başak burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 9: if (ay>0 && ay<23){
-                System.out.println("Başak burcusunuz.");
-            } else if(ay>22 && ay<31) {
-                System.out.println("Terazi burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 9:
+                if (ay > 0 && ay < 23) {
+                    System.out.println("Başak burcusunuz.");
+                } else if (ay > 22 && ay < 31) {
+                    System.out.println("Terazi burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 10: if (ay>0 && ay<23){
-                System.out.println("Terazi burcusunuz.");
-            } else if(ay>22 && ay<31) {
-                System.out.println("Akrep burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 10:
+                if (ay > 0 && ay < 23) {
+                    System.out.println("Terazi burcusunuz.");
+                } else if (ay > 22 && ay < 31) {
+                    System.out.println("Akrep burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 11: if (ay>0 && ay<22){
-                System.out.println("Akrep burcusunuz.");
-            } else if(ay>21 && ay<31) {
-                System.out.println("Yay burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 11:
+                if (ay > 0 && ay < 22) {
+                    System.out.println("Akrep burcusunuz.");
+                } else if (ay > 21 && ay < 31) {
+                    System.out.println("Yay burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
-            case 12: if (ay>0 && ay<22){
-                System.out.println("Yay burcusunuz.");
-            } else if(ay>21 && ay<31) {
-                System.out.println("Oğlak burcusunuz");
-            } else {
-                System.out.println("Hatalı Giriş yaptınız");
-            }
+            case 12:
+                if (ay > 0 && ay < 22) {
+                    System.out.println("Yay burcusunuz.");
+                } else if (ay > 21 && ay < 31) {
+                    System.out.println("Oğlak burcusunuz");
+                } else {
+                    System.out.println("Hatalı Giriş yaptınız");
+                }
                 break;
         }
 
@@ -1124,7 +1133,7 @@ Aksi takdirde kullanıcıya "Hatalı Veri Girdiniz !" şeklinde bir uyarı veril
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P14_UcakBiletiFiyatiHesaplama;
+package J2_KosulluIfadeler_KodBloklari.P14_UcakBiletiFiyatiHesaplama;
 
 import java.util.Scanner;
 
@@ -1152,29 +1161,41 @@ public class Main {
 
         System.out.print("Yaşınızı giriniz : ");
         yas = scanner.nextInt();
-        if (yas<0) {System.out.println("Hatalı veri girdiniz."); return;};
+        if (yas < 0) {
+            System.out.println("Hatalı veri girdiniz.");
+            return;
+        }
+        ;
 
         System.out.print("Yolculuk tipini giriniz (1- Tek gidiş | 2- Gidiş-Dönüş: ");
         yolculukTipi = scanner.nextInt();
-        if (yolculukTipi != 1 && yolculukTipi != 2) {System.out.println("Hatalı veri girdiniz."); return;};
+        if (yolculukTipi != 1 && yolculukTipi != 2) {
+            System.out.println("Hatalı veri girdiniz.");
+            return;
+        }
+        ;
 
         System.out.print("Gidilecek mesafe birimini giriniz (km) : ");
         km = scanner.nextDouble();
-        if (km<0) {System.out.println("Hatalı veri girdiniz."); return;};
+        if (km < 0) {
+            System.out.println("Hatalı veri girdiniz.");
+            return;
+        }
+        ;
         scanner.close();
 
         topUcret = km * ucret;
 
-        if (yas<12){
+        if (yas < 12) {
             topUcret = topUcret / 2;
         } else if (yas >= 12 && yas <= 24) {
             topUcret = topUcret * 0.9;
-        } else if (yas>65) {
+        } else if (yas > 65) {
             topUcret = topUcret * 0.7;
         }
 
 
-        if (yolculukTipi == 2){
+        if (yolculukTipi == 2) {
             topUcret = topUcret * 0.8;
             topUcret = topUcret * 2;
         }
@@ -1234,7 +1255,7 @@ Java ile kullanıcıdan doğum tarihini alıp Çin Zodyağı değerini hesaplaya
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P15_CinZodyagi;
+package J2_KosulluIfadeler_KodBloklari.P15_CinZodyagi;
 
 import java.util.Scanner;
 
@@ -1249,14 +1270,14 @@ public class Main {
         dTarih = scanner.nextInt();
         scanner.close();
 
-        if (dTarih<=999) {
+        if (dTarih <= 999) {
             System.out.println("Hatalı veri girişi yaptınız.");
             return;
         }
 
-        zodyagDegeri = dTarih %12;
+        zodyagDegeri = dTarih % 12;
 
-        switch (zodyagDegeri){
+        switch (zodyagDegeri) {
             case 0:
                 System.out.println("Maymun");
                 break;
@@ -1295,8 +1316,6 @@ public class Main {
                 break;
 
         }
-
-
 
 
     }
@@ -1338,7 +1357,7 @@ Sadece 400'e tam olarak bölünebilenlerin artık yıl kabul edilmesinin nedeni,
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package P16_ArtikYilHesaplama;
+package J2_KosulluIfadeler_KodBloklari.P16_ArtikYilHesaplama;
 
 import java.util.Scanner;
 
@@ -1349,11 +1368,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int yil = scanner.nextInt();
 
-        if (yil%4==0){
-            if (yil%100==0){
-                if (yil%400==0) {
+        if (yil % 4 == 0) {
+            if (yil % 100 == 0) {
+                if (yil % 400 == 0) {
                     System.out.println(yil + " yılı artık yıldır.");
-                }else {
+                } else {
                     System.out.println(yil + " yılı artık yıl değildir.");
                 }
             } else {
