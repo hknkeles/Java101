@@ -218,7 +218,7 @@ Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran prog
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package TaksimetreProgrami;
+package P4_TaksimetreProgrami;
 
 import java.util.Scanner;
 
@@ -232,7 +232,7 @@ public class Main {
         */
         Scanner scanner = new Scanner(System.in);
 
-        double gidilenMesafe, acilisUcreti=10, tutar;
+        double gidilenMesafe, acilisUcreti = 10, tutar;
         float km = 2.20f;
 
         System.out.println("Gidilen mesafe bilgisini km olarak giriniz.");
@@ -241,7 +241,7 @@ public class Main {
 
         tutar = acilisUcreti + (gidilenMesafe * km);
 
-        System.out.printf("Ödenecek tutar : %.2f", (tutar<=20) ? 20 : tutar);
+        System.out.printf("Ödenecek tutar : %.2f", (tutar <= 20) ? 20 : tutar);
 
 
     }

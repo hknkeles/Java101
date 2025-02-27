@@ -1,4 +1,4 @@
-package TaksimetreProgrami;
+package P4_TaksimetreProgrami;
 
 import java.util.Scanner;
 
