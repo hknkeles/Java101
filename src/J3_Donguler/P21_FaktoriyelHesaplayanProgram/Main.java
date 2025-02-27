@@ -30,7 +30,7 @@ public class Main {
         int n, r;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Kaç Elamanlı Küme Olsun: ");
+        System.out.print("Kaç Elamanlı Küme Olsun : ");
         n = scanner.nextInt();
 
         System.out.print("Kaç Elemanlı Grup olsun: ");
