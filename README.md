@@ -13,7 +13,7 @@ Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik derslerinin sınav pua
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package NotOrtalamasi;
+package P1_NotOrtalamasi;
 
 import java.util.Scanner;
 
