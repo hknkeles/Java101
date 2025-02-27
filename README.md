@@ -1392,6 +1392,27 @@ public class Main {
 <hr>
 
 
+### 📖 PRATİK 17 - Girilen Sayıya Kadar Olan Çift Sayıları Bulan Program
+<hr>
+
+#### ❓SORU
+
+Java döngüler ile kullanıcının girdiği sayıya kadar çift olan sayıları bulan programı yazınız.
+
+
+❗Java döngüler ile 0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların ortalamasını hesaplayan programı yazınız.
+
+🟩 **CEVAP**
+<details>
+  <summary>Kodu görmek için tıklayınız.</summary>
+
+```JAVA
+kodları yaz
+```
+</details>
+<hr>
+
+
 ### 📖 PRATİK # - baslık
 <hr>
 
