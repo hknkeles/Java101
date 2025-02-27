@@ -76,7 +76,7 @@ Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve KDV tutarı
   <summary>Kodu görmek için tıklayınız.</summary>
 
 ```JAVA
-package KDVTutariUygulamasi;
+package P2_KDVTutariUygulamasi;
 
 import java.util.Scanner;
 

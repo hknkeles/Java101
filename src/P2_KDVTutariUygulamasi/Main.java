@@ -1,4 +1,4 @@
-package KDVTutariUygulamasi;
+package P2_KDVTutariUygulamasi;
 
 import java.util.Scanner;
 
