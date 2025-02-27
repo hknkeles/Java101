@@ -11,7 +11,7 @@ public class HipotenusHesaplama {
         double kenar3;
 
         System.out.println("Lütfen dik kenarların uzunluklarını giriniz.");
-        System.out.println("Birinci kenar uzunluğu: ");
+        System.out.println("Birinci kenar uzunluğu : ");
         kenar1 = scanner.nextInt();
         System.out.println("İkinci kenar uzunluğu: ");
         kenar2 = scanner.nextInt();
